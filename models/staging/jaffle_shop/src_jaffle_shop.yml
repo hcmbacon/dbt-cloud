@@ -2,6 +2,7 @@ version: 2
 
 sources:
     - name: jaffle_shop
+      description: Data from Jaffle shop app
       database: dbt-tutorial
       tables:
         - name: customers
